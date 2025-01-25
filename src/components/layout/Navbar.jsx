@@ -297,6 +297,11 @@ const Navbar = () => {
                       </Link>
                     </li>
                     <li>
+                      <Link className="dropdown-item" to="/superadmin/create-linked-accounts">
+                        Create Linked Accounts
+                      </Link>
+                    </li>
+                    <li>
                       <Link className="dropdown-item" to="/superadmin/trending-temples">
                         Trending Temples
                       </Link>

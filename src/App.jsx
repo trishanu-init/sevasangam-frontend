@@ -27,6 +27,8 @@ import AllDonation from "./pages/superadmin/AllDonation";
 import UnverifiedTemples from "./pages/superadmin/UnverifiedTemples";
 import Checkout from "./pages/checkout/Checkout";
 import VerifyTempleChanges from "./pages/superadmin/VerifyTempleChanges";
+import CreateLinkedAccounts from "./pages/superadmin/CreateLinkedAccounts";
+import ApproveBankDetails from "./pages/superadmin/ApproveBankDetails";
 import UserDonations from "./pages/donation/UserDonations";
 import PastDonations from "./pages/donation/PastDonation";
 import IsSignedIn from "./routes/IsSignedIn";
@@ -116,6 +118,8 @@ function App() {
             <Route path="verify-temple-changes/:id" element={<VerifyTempleChanges />} />
             <Route path="donations" element={<AllDonation />} />
             <Route path="unverified-temples" element={<UnverifiedTemples />} />
+            <Route path="create-linked-accounts" element={<CreateLinkedAccounts />} />
+            <Route path="approve-bank-details/:id" element={<ApproveBankDetails />} />
             <Route path="contact-ticket" element={<ContactTicket />} />
             <Route path="subscribed-emails" element={<SubscribedEmails />} />
 

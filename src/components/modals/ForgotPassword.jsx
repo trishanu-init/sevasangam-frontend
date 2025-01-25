@@ -117,7 +117,7 @@ const ForgotPasswordModal = () => {
             </div>
         </div >
 
-        //   to open above modal use --- data-toggle="modal" data-target="#forgotPasswordModal" --- in desired button
+        //   to open above modal use --- data-toggle="modal" data-target="#forgotPasswordBackdrop" --- in desired button
     );
 };
 

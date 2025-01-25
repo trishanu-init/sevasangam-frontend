@@ -8,6 +8,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import UpdateProfileModal from '../modals/UpdateProfileModal';
 import ForgotPasswordModal from '../modals/ForgotPassword';
+import AccountCreationModal from '../modals/AccountCreationModal';
 import { Helmet } from 'react-helmet';
 function Layout({ children, title = 'SevaSangam', description = 'SevaSangam is a visionary platform dedicated to facilitating spiritual connections and supporting temples through seamless digital solutions.' }) {
 
@@ -24,6 +25,7 @@ function Layout({ children, title = 'SevaSangam', description = 'SevaSangam is a
             <SignupModal></SignupModal>
             <LoginModal></LoginModal>
             <UpdateProfileModal></UpdateProfileModal>
+            <AccountCreationModal />
             <ForgotPasswordModal />
         </>
     );

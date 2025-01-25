@@ -85,7 +85,7 @@ const Temple = () => {
     setCurrencySymbol(currencySymbol);
   }, [currency]);
 
-  const [amount, setAmount] = useState(3000);
+  const [amount, setAmount] = useState(1000);
 
   const updateAmount = (e) => {
     setAmount(parseInt(e.target.innerText.replace(/[^\d]/g, "")));
